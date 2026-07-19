@@ -6,12 +6,17 @@
 -->
 <html>
 	<head>
-		<title>Astral by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
+       <title>Corrina Benson - Portfolio</title>
+       <meta charset="utf-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+       <link rel="stylesheet" href="assets/css/main.css" />
+       <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+       <!-- ADD THESE TWO LINES FOR MATH EQUATIONS -->
+       <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+       <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    </head>
+
 	<body class="is-preload">
 
 		<!-- Wrapper-->
@@ -32,7 +37,8 @@
 							<article id="home" class="panel intro">
 								<header>
 									<h1>Corrina Benson</h1>
-									<p>Senior Physics Major at Pomona College</p>
+									<p>Senior Physics Major at Pomona College <br />
+										Specializing in Lasers, Modeling, and Quantum Systems</p>
 								</header>
 								<a href="#work" class="jumplink pic">
 									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
@@ -41,54 +47,72 @@
 							</article>
 
 						<!-- Work -->
-							<article id="work" class="panel">
-								<header>
-									<h2>Work</h2>
-								</header>
-								<p>
-									In May 2027, I will graduate with a bachelor's degree in physics.
-								</p>
-								<section>
-									<div class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
-										</div>
+						   <article id="work" class="panel">
+							  <header>
+								 <h2>Research & Engineering Projects</h2>
+							  </header>
+
+							  <p>
+								 In May 2027, I will graduate from Pomona College with a bachelor's degree in physics, bridging experimental foundations with hands-on hardware engineering.
+							  </p>
+
+							  <section>
+								 <div class="row">
+
+									<!-- Project 1: BEC -->
+									<div class="col-12" style="margin-bottom: 2rem; padding: 1.5rem; background: rgba(0,0,0,0.02); border-radius: 8px; border-left: 4px solid #4a90e2;">
+									   <h3>Bose-Einstein Condensate (BEC) Experimental Optics</h3>
+									   <p><strong>Optics // Ultra-High Vacuum // Laser Stabilization</strong></p>
+									   <p>Designed and optimized experimental optical pathways to target atomic transitions for laser cooling and trapping of alkali atoms down to microkelvin regimes.</p>
+									   <div style="background: rgba(0,0,0,0.04); padding: 1rem; margin: 1rem 0; border-radius: 4px; overflow-x: auto;">
+										  $$T_c = \left(\frac{n}{\zeta(3/2)}\right)^{2/3} \frac{2\pi \hbar^2}{m k_B}$$
+									   </div>
+									   <ul>
+										  <li>Aligned complex multi-axis magneto-optical trap (MOT) laser configurations.</li>
+										  <li>Utilized saturated absorption spectroscopy to lock diode lasers to atomic hyperfine transitions.</li>
+										  <li>Analyzed time-of-flight absorption imaging data in Python to calculate cloud temperature.</li>
+									   </ul>
 									</div>
-								</section>
-							</article>
+
+									<!-- Project 2: Milky Way Monopoles -->
+									<div class="col-12" style="margin-bottom: 2rem; padding: 1.5rem; background: rgba(0,0,0,0.02); border-radius: 8px; border-left: 4px solid #4a90e2;">
+									   <h3>Milky Way Dark Matter Monopole Simulation</h3>
+									   <p><strong>Python // Numerical Modeling // Astrophysics</strong></p>
+									   <p>Developed custom numerical simulations to model the hypothetical trajectories and bounds of magnetic monopoles navigating the Milky Way galaxy, factoring in dark matter halo distributions.</p>
+									   <div style="background: rgba(0,0,0,0.04); padding: 1rem; margin: 1rem 0; border-radius: 4px; overflow-x: auto;">
+										  $$\nabla \cdot \mathbf{B} = \mu_0 \rho_m \quad \Rightarrow \quad \frac{d^2\mathbf{r}}{dt^2} = -\nabla \Phi_{\text{gal}}(\mathbf{r}) + \frac{g}{m}\mathbf{B}_{\text{gal}}$$
+									   </div>
+									   <ul>
+										  <li>Simulated differential equation solvers (RK4) to map trajectories through varied galactic potential models.</li>
+										  <li>Conducted parametric sweeps across varying galactic mass weights to determine capture cross-sections.</li>
+									   </ul>
+									</div>
+
+									<!-- Project 3: Automated Lens Focuser -->
+									<div class="col-12" style="margin-bottom: 2rem; padding: 1.5rem; background: rgba(0,0,0,0.02); border-radius: 8px; border-left: 4px solid #4a90e2;">
+									   <h3>Automated Precision Lens Focuser</h3>
+									   <p><strong>Embedded C++ // Optomechanics // Stepper Control</strong></p>
+									   <p>Engineered an automated electronic focal positioning mechanism to adjust optical lenses dynamically, optimizing beam-profiler image sharpness or fiber coupling efficiencies.</p>
+									   <ul>
+										  <li>Programmed an embedded microcontroller framework to execute sub-micron mechanical step translations.</li>
+										  <li>Integrated visual data loops to dynamically maximize image gradient variance.</li>
+									   </ul>
+									</div>
+
+									<!-- Project 4: Automatic Winch -->
+									<div class="col-12" style="margin-bottom: 2rem; padding: 1.5rem; background: rgba(0,0,0,0.02); border-radius: 8px; border-left: 4px solid #4a90e2;">
+									   <h3>Closed-Loop Automatic Winch System</h3>
+									   <p><strong>Electronics // Feedback Control // Arduino C++</strong></p>
+									   <p>Built a mechatronic winch system featuring closed-loop feedback controls to accurately position physical payloads based on real-time sensor telemetry.</p>
+									   <ul>
+										  <li>Implemented a PID control loop to manage velocity profiles and eliminate position overshoot.</li>
+										  <li>Configured physical sensor parsing with hardware interrupts for rapid error response.</li>
+									   </ul>
+									</div>
+
+								 </div>
+							  </section>
+						   </article>
 
 						<!-- Contact -->
 							<article id="contact" class="panel">
